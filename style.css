@@ -30,3 +30,9 @@ h2{font-size:1.6rem;margin:2rem 0 1rem}
 .site-footer{padding:2rem 0;border-top:1px solid #1b2340;margin-top:3rem}
 .small{color:var(--muted);font-size:.9rem}
 @media (max-width:600px){.nav-links{display:none}}
+
+/* Skill category cards */
+.skill-categories{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.skill-card{background:var(--card);border:1px solid #182042;border-radius:1rem;padding:1rem}
+.skill-card h3{margin:.25rem 0 .5rem;font-size:1.05rem}
+.skill-card .chips{margin-top:.25rem}
