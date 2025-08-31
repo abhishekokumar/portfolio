@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abhishek | Portfolio</title>
+  <meta name="description" content="Portfolio of Abhishek — Data Science & Software Engineering projects.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="logo" href="#">Abhishek</a>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero container">
+    <h1>Hi, I'm <span>Abhishek</span>.</h1>
+    <p>Data Scientist & Software Engineer — I build robust data products and services that turn messy data into decisions.</p>
+    <div class="cta">
+      <a class="btn" href="#projects">See my work</a>
+      <a class="btn outline" href="assets/Abhishek_CV.pdf" target="_blank" rel="noopener">View CV</a>
+    </div>
+    <div class="meta">
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> •
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a> •
+      <a href="mailto:me@example.com">Email</a>
+    </div>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>Selected Projects</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>River Flow Forecasting (Taff)</h3>
+        <p>Built end‑to‑end forecasting (SVR/ARIMA/RF) with ETL from NRFA gauges; achieved ~96.5% direction‑accuracy and low error across tributaries.</p>
+        <p class="tags">Python · scikit‑learn · Pandas · Time series</p>
+        <p><a href="#" target="_blank" rel="noopener">Code</a> · <a href="#" target="_blank" rel="noopener">Report</a></p>
+      </article>
+      <article class="card">
+        <h3>Energy Usage Prediction</h3>
+        <p>Modeled residential energy consumption with RF & NN; delivered actionable insights to reduce peak demand.</p>
+        <p class="tags">Python · ML · EDA · Visualization</p>
+        <p><a href="#" target="_blank" rel="noopener">Code</a></p>
+      </article>
+      <article class="card">
+        <h3>Gen‑AI Log Classifier</h3>
+        <p>Hybrid Regex + BERT + LR pipeline with FastAPI for log triage; boosts triage speed by 20%.</p>
+        <p class="tags">NLP · FastAPI · Docker</p>
+        <p><a href="#" target="_blank" rel="noopener">Code</a></p>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <ul class="chips">
+      <li>Python</li><li>SQL/MySQL</li><li>scikit‑learn</li><li>Pandas</li><li>Time Series</li>
+      <li>Docker</li><li>MLflow</li><li>Tableau/Power BI</li><li>AWS (basics)</li><li>Golang · PHP (Laravel)</li>
+    </ul>
+  </section>
+
+  <section id="about" class="container">
+    <h2>About</h2>
+    <p>MSc Data Science & Analytics (Cardiff, Distinction). 4 years in software engineering (fintech & e‑commerce), 1 year in analytics. I enjoy shipping reliable data systems and explaining results in plain English.</p>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Let's talk! Email <a href="mailto:me@example.com">me@example.com</a> or message on <a href="https://www.linkedin.com/">LinkedIn</a>.</p>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container small">© <span id="year"></span> Abhishek · Built with GitHub Pages</div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
