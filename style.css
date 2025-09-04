@@ -62,3 +62,48 @@ h2{font-size:1.6rem;margin:2rem 0 1rem}
 a.ext::after{content:"↗";margin-left:.25rem}
 .nav-links a.active{color:var(--text);font-weight:600}
 
+
+/* Project card heading */
+
+
+/* Project description text */
+.card p {
+  color: #7c9cf5;   /* lighter gray for descriptions */
+  margin: .35rem 0;
+}
+
+/* Tech stack tags (Python, Power BI, etc.) */
+.card .tags {
+  color: #8ee6a2;   /* green-ish accent */
+  font-size: .9rem;
+  font-weight: 500;
+}
+
+/* Resource links (Code · Report · Demo etc.) inside project cards */
+.card p a {
+  color: #f5a97c;         /* orange accent */
+  /* remove underline */
+  font-weight: 600;
+}
+
+.card p a:hover {
+  color: #7c9cf5;         /* lighter orange on hover */
+  text-decoration: underline;
+}
+
+/* Profile avatar hover zoom */
+.avatar {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #2b3769;
+  box-shadow: 0 8px 30px rgba(0,0,0,.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.avatar:hover {
+  transform: scale(1.08); /* zoom in slightly */
+  box-shadow: 0 12px 36px rgba(0,0,0,.5);
+}
+
