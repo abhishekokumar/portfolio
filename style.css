@@ -6,11 +6,12 @@
 html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial}
 .container{max-width:980px;margin:0 auto;padding:0 1.25rem}
 .site-header{position:sticky;top:0;background:rgba(11,14,20,.85);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid #1b2340}
-.nav{display:flex;justify-content:space-between;align-items:center;min-height:60px}
-.logo{color:var(--text);text-decoration:none;font-weight:700;letter-spacing:.3px}
+/* .nav{display:flex;justify-content:space-between;align-items:center;min-height:60px}
+
 .nav-links{list-style:none;display:flex;gap:1rem;margin:0;padding:0}
 .nav-links a{color:var(--muted);text-decoration:none}
-.nav-links a:hover{color:var(--text)}
+.nav-links a:hover{color:var(--text)} */
+
 .hero{padding:5rem 1.25rem 3rem}
 .hero h1{font-size:clamp(2rem,5vw,3rem);margin:.25rem 0 .5rem}
 .hero h1 span{color:var(--brand)}
@@ -107,3 +108,54 @@ a.ext::after{content:"↗";margin-left:.25rem}
   box-shadow: 0 12px 36px rgba(0,0,0,.5);
 }
 
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0d1117;
+  padding: 0.1px 160px;
+}
+
+.logo{
+  color:var(--text);
+  text-decoration:none;
+  font-weight:700;
+  letter-spacing:.3px
+}
+.menu {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+#menu-toggle {
+  display: none;
+}
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background: #161b22;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  #menu-toggle:checked + .menu-icon + .menu {
+    display: flex;
+  }
+  .menu-icon {
+    display: block;
+  }
+}
