@@ -20,74 +20,89 @@
     </nav>
   </header>
 
-  <section class="hero container hero-with-photo">
-    <div class="hero-left"></div>
-    <h1>Hi, I'm <span>Abhishek</span>.</h1>
-    <p>Data Scientist & Software Engineer — I build robust data products and services that turn messy data into decisions.</p>
-    <div class="cta">
-      <a class="btn" href="#projects">See my work</a>
-      <a class="btn outline" href="assets/Abhishek_CV.pdf" target="_blank" rel="noopener">View CV</a>
+  <section class="hero container hero-split">
+    <div class="hero-left">
+      <h1>Hi, I'm <span>Abhishek</span>.</h1>
+      <p>Data Scientist & Software Engineer — I build robust data products and services that turn messy data into decisions.</p>
+      <div class="cta">
+        <a class="btn" href="#projects">See my work</a>
+        <a class="btn outline" href="assets/Abhishek_CV.pdf" target="_blank" rel="noopener">View CV</a>
+      </div>
+      <div class="meta">
+        <a href="https://github.com/abhishek1110111" target="_blank" rel="noopener">GitHub</a> •
+        <a href="https://www.linkedin.com/in/abhi-km/" target="_blank" rel="noopener">LinkedIn</a> •
+        <div class="meta">
+      <a href="mailto:abhishek.kumar11101@gmail.com?subject=Hello%20Abhishek&body=Hi%20Abhishek%2C%0D%0A">
+        Email
+      </a> •
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abhishek.kumar11101@gmail.com&su=Hello%20Abhishek" target="_blank" rel="noopener">
+        Gmail
+      </a> •
+      <a href="https://outlook.office.com/mail/deeplink/compose?to=abhishek.kumar11101@gmail.com&subject=Hello%20Abhishek" target="_blank" rel="noopener">
+        Outlook
+      </a>
+</div>
+
+      </div>
     </div>
-    <div class="meta">
-      <a href="https://github.com/abhishek1110111" target="_blank" rel="noopener">GitHub</a> •
-      <a href="https://www.linkedin.com/in/abhi-km/" target="_blank" rel="noopener">LinkedIn</a> •
-      <a href="mailto:abhishek.kumar11101@gmail.com">Email</a>
-    </div>
-    </div>
+
     <div class="hero-right">
-    <img class="avatar" src="assets/profile.jpg" alt="Abhishek Kumar portrait">
+      <img class="avatar" src="assets/profile.jpg" alt="Abhishek Kumar portrait">
     </div>
   </section>
 
-  <div class="grid">
+
+  
     <section id="projects" class="container">
       <h2>Projects</h2>
-      <article class="card">
-        <h3>River Flow Forecasting — Taff River</h3>
-        <p>End-to-end pipeline (NRFA ETL → Linear Regression/SVR/Neural Network) forecasting next-day river levels; ~96.5% correct up/down direction and ~3.5% average error (MAPE).</p>
-        <p class="tags">Python · Machine Learning · Time Series . Model Optimisation</p>
-        <p><a href="https://github.com/abhishek1110111/Daily-River-Flow-Forecasting" target="_blank" rel="noopener">Code</a> · <a href="assets/Msc dissertation 2024_23039854_jones.pdf" target="_blank" rel="noopener">Report</a></p>
-      </article>
+      <div class="grid">
+        <article class="card">
+          <h3>River Flow Forecasting — Taff River</h3>
+          <p>End-to-end pipeline (NRFA ETL → Linear Regression/SVR/Neural Network) forecasting next-day river levels; ~96.5% correct up/down direction and ~3.5% average error (MAPE).</p>
+          <p class="tags">Python · Machine Learning · Time Series . Model Optimisation</p>
+          <p><a href="https://github.com/abhishek1110111/Daily-River-Flow-Forecasting" target="_blank" rel="noopener">Code</a> · <a href="assets/Msc dissertation 2024_23039854_jones.pdf" target="_blank" rel="noopener">Report</a></p>
+        </article>
 
-      <article class="card">
-        <h3>Energy Usage Prediction — Residential</h3>
-        <p>Predicted household energy consumption with Linear Regression, Random Forest, LightGBM &amp; Neural Network; surfaced key drivers (weather/seasonality) and insights to reduce peak-load demand.</p>
-        <p class="tags">Python · Machine Learning · EDA · Visualization</p>
-        <p><a href="https://github.com/abhishek1110111/Energy_usage_prediction" target="_blank" rel="noopener">Code</a>· <a href="https://github.com/abhishek1110111/Energy_usage_prediction/blob/main/groupReport.pdf"  target="_blank" rel="noopener">Report</a></p>
-      </article>
+        <article class="card">
+          <h3>Energy Usage Prediction — Residential</h3>
+          <p>Predicted household energy consumption with Linear Regression, Random Forest, LightGBM &amp; Neural Network; surfaced key drivers (weather/seasonality) and insights to reduce peak-load demand.</p>
+          <p class="tags">Python · Machine Learning · EDA · Visualization</p>
+          <p><a href="https://github.com/abhishek1110111/Energy_usage_prediction" target="_blank" rel="noopener">Code</a>· <a href="https://github.com/abhishek1110111/Energy_usage_prediction/blob/main/groupReport.pdf"  target="_blank" rel="noopener">Report</a></p>
+        </article>
 
-      <article class="card">
-        <h3>Gen-AI Log Classifier</h3>
-        <p>Hybrid Regex + BERT embeddings + Logistic Regression served via FastAPI; cut log triage time by ~20% and improved routing accuracy.</p>
-        <p class="tags">Python . Regex · NLP · Llama model . FastAPI · Docker</p>
-        <p><a href="https://github.com/abhishek1110111/gen-ai-log-classification" target="_blank" rel="noopener">Code</a></p>
-      </article>
+        <article class="card">
+          <h3>Gen-AI Log Classifier</h3>
+          <p>Hybrid Regex + BERT embeddings + Logistic Regression served via FastAPI; cut log triage time by ~20% and improved routing accuracy.</p>
+          <p class="tags">Python . Regex · NLP · Llama model . FastAPI · Docker</p>
+          <p><a href="https://github.com/abhishek1110111/gen-ai-log-classification" target="_blank" rel="noopener">Code</a></p>
+        </article>
 
-      <article class="card">
-        <h3>Crew Scheduling Forecasting — Jakarta 118 Ambulance</h3>
-        <p>Forecasted Crew demand &amp; staffing with Naïve, SES, Holt/Holt-Winters, and ARIMA; produced shift recommendations that improved coverage and reduced idle time.</p>
-        <p class="tags">Python . Time Series Forecasting · ARIMA · Holt-Winters · SES</p>
-        <p><a href="https://github.com/abhishek1110111/time-series-forecasting-crew-scheduling" target="_blank" rel="noopener">Code</a> · <a href="assets/crew_scheduling_poster.pdf" target="_blank" rel="noopener">Poster</a></p>
-      </article>
+        <article class="card">
+          <h3>Crew Scheduling Forecasting — Jakarta 118 Ambulance</h3>
+          <p>Forecasted Crew demand &amp; staffing with Naïve, SES, Holt/Holt-Winters, and ARIMA; produced shift recommendations that improved coverage and reduced idle time.</p>
+          <p class="tags">Python . Time Series Forecasting · ARIMA · Holt-Winters · SES</p>
+          <p><a href="https://github.com/abhishek1110111/time-series-forecasting-crew-scheduling" target="_blank" rel="noopener">Code</a> · <a href="assets/crew_scheduling_poster.pdf" target="_blank" rel="noopener">Poster</a></p>
+        </article>
 
-      <article class="card">
-        <h3>E-commerce Sales Dashboard (Power BI)</h3>
-        <p>Interactive BI app tracking revenue, profit, quantity and AOV with quarter slicers. Breakdowns by state, category, payment mode, and sub-category plus monthly profit trend and top customers. Used to flag stock risk and margin drivers—helped cut stockouts ≈20% and reduce overstock ≈10%.</p>
-        <p class="tags">Power BI · DAX · Data Modeling · SQL/Excel</p>
-        <p>
-          <a href="https://github.com/abhishek1110111/Ecommerce-sales-Dashboard-Power-BI" target="_blank" rel="noopener">Code</a> ·
-          <a href="assets/ecommerce_dashboard.png" target="_blank" rel="noopener">Screenshot</a>
-        </p>
-      </article>
+        <article class="card">
+          <h3>E-commerce Sales Dashboard (Power BI)</h3>
+          <p>Interactive BI app tracking revenue, profit, quantity and AOV with quarter slicers. Breakdowns by state, category, payment mode, and sub-category plus monthly profit trend and top customers. Used to flag stock risk and margin drivers—helped cut stockouts ≈20% and reduce overstock ≈10%.</p>
+          <p class="tags">Power BI · DAX · Data Modeling · SQL/Excel</p>
+          <p>
+            <a href="https://github.com/abhishek1110111/Ecommerce-sales-Dashboard-Power-BI" target="_blank" rel="noopener">Code</a> ·
+            <a href="assets/ecommerce_dashboard.png" target="_blank" rel="noopener">Screenshot</a>
+          </p>
+        </article>
 
-      <article class="card">
-          <h3>Indian Eatery Chatbot — Order &amp; Support</h3>
-          <p>Dialogflow (ES/CX) + FastAPI backend with MySQL; answers menu FAQs, tracks orders, and escalates to staff when needed. Designed intents, entities, and handoff logic; deployable via Docker/ngrok.</p>
-          <p class="tags">Python . Dialogflow · NLP · FastAPI · MySQL · Docker</p>
-          <p><a href="https://github.com/abhishek1110111/Chatbot_for_restaurant" target="_blank" rel="noopener">Code</a> · <a href="https://www.youtube.com/watch?v=H_Wh84hy5U8" target="_blank" rel="noopener">Demo</a></p>
-      </article>
+        <article class="card">
+            <h3>Indian Eatery Chatbot — Order &amp; Support</h3>
+            <p>Dialogflow (ES/CX) + FastAPI backend with MySQL; answers menu FAQs, tracks orders, and escalates to staff when needed. Designed intents, entities, and handoff logic; deployable via Docker/ngrok.</p>
+            <p class="tags">Python . Dialogflow · NLP · FastAPI · MySQL · Docker</p>
+            <p><a href="https://github.com/abhishek1110111/Chatbot_for_restaurant" target="_blank" rel="noopener">Code</a> · <a href="https://www.youtube.com/watch?v=H_Wh84hy5U8" target="_blank" rel="noopener">Demo</a></p>
+        </article>
+      </div>
     </section>
-  </div>
+  
 
     <section id="experience" class="container">
     <h2>Experience</h2>
@@ -142,7 +157,7 @@
       <article class="skill-card">
         <h3>Data Science &amp; ML</h3>
         <ul class="chips">
-          <li>Regex</li><li>scikit-learn</li><li>NLP</li><li>LLMs</li><li>TensorFlow</li><li>PyTorch</li><li>HuggingFace</li><li>statistical Modelling</li>
+          <li>Regex</li><li>scikit-learn</li><li>PyTorch</li><li>NLP</li><li>LLMs</li><li>Statistical Modelling</li><li>TensorFlow</li><li>HuggingFace</li>
         </ul>
       </article>
       <article class="skill-card">
