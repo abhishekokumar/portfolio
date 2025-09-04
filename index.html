@@ -35,40 +35,91 @@
   </section>
 
   <section id="projects" class="container">
-    <h2>Selected Projects</h2>
-    <div class="grid">
-      <article class="card">
-        <h3>River Flow Forecasting Using Machine Learning</h3>
-        <p>Built end-to-end forecasting (SVR/ARIMA/RF) with ETL from NRFA gauges; achieved ~96.5% direction-accuracy and low error across tributaries.</p>
-        <p class="tags">Python · scikit-learn · Pandas · Time series</p>
-        <p><a href="#" target="_blank" rel="noopener">Code</a> · <a href="#" target="_blank" rel="noopener">Report</a></p>
-      </article>
-      <article class="card">
-        <h3>Energy Usage Prediction Using Machine Learning</h3>
-        <p>Modeled residential energy consumption with RF & NN; delivered actionable insights to reduce peak demand.</p>
-        <p class="tags">Python · ML · EDA · Visualization</p>
-        <p><a href="#" target="_blank" rel="noopener">Code</a></p>
-      </article>
-      <article class="card">
-        <h3>Gen-AI Log Classifier</h3>
-        <p>Hybrid Regex + BERT + LR pipeline with FastAPI for log triage; boosts triage speed by 20%.</p>
-        <p class="tags">NLP · FastAPI · Docker</p>
-        <p><a href="#" target="_blank" rel="noopener">Code</a></p>
-      </article>
-      <article class="card">
-        <h3>Gen-AI Log Classifier</h3>
-        <p>Hybrid Regex + BERT + LR pipeline with FastAPI for log triage; boosts triage speed by 20%.</p>
-        <p class="tags">NLP · FastAPI · Docker</p>
-        <p><a href="#" target="_blank" rel="noopener">Code</a></p>
-      </article>
-      <article class="card">
+    <h2>Projects</h2>
+    <article class="card">
+      <h3>River Flow Forecasting — Taff River</h3>
+      <p>End-to-end pipeline (NRFA ETL → Linear Regression/SVR/Neural Network) forecasting next-day river levels; ~96.5% correct up/down direction and ~3.5% average error (MAPE).</p>
+      <p class="tags">Python · Machine Learning · Time Series . Model Optimisation</p>
+      <p><a href="https://github.com/abhishek1110111/Daily-River-Flow-Forecasting" target="_blank" rel="noopener">Code</a> · <a href="https://github.com/abhishek1110111/Energy_usage_prediction/blob/main/groupReport.pdf" target="_blank" rel="noopener">Report</a></p>
+    </article>
+
+    <article class="card">
+      <h3>Energy Usage Prediction — Residential</h3>
+      <p>Predicted household energy consumption with Linear Regression, Random Forest, LightGBM &amp; Neural Network; surfaced key drivers (weather/seasonality) and insights to reduce peak-load demand.</p>
+      <p class="tags">Python · Machine Learning · EDA · Visualization</p>
+      <p><a href="https://github.com/abhishek1110111/Energy_usage_prediction" target="_blank" rel="noopener">Code</a>· <a href="https://github.com/abhishek1110111/Daily-River-Flow-Forecasting/blob/main/Msc%20dissertation%202024_23039854_jones.pdf" target="_blank" rel="noopener">Report</a></p>
+    </article>
+
+    <article class="card">
+      <h3>Gen-AI Log Classifier</h3>
+      <p>Hybrid Regex + BERT embeddings + Logistic Regression served via FastAPI; cut log triage time by ~20% and improved routing accuracy.</p>
+      <p class="tags">Python . Regex. NLP · Llama model . FastAPI · Docker</p>
+      <p><a href="https://github.com/abhishek1110111/gen-ai-log-classification" target="_blank" rel="noopener">Code</a></p>
+    </article>
+
+    <article class="card">
       <h3>Crew Scheduling Forecasting — Jakarta 118 Ambulance</h3>
-      <p>Built demand forecasts for ambulance calls and staffing using Naïve, SES, Holt, Holt-Winters, and ARIMA models; produced low-error forecasts to support shift planning and SLA coverage.</p>
-      <p class="tags">Time Series · Forecasting · ARIMA · Holt-Winters · SES · Python</p>
-      <p><a href="#" target="_blank" rel="noopener">Code</a> · <a href="#" target="_blank" rel="noopener">Poster</a></p>
+      <p>Forecasted Crew demand &amp; staffing with Naïve, SES, Holt/Holt-Winters, and ARIMA; produced shift recommendations that improved coverage and reduced idle time.</p>
+      <p class="tags">Python . Time Series Forecasting · ARIMA · Holt-Winters · SES</p>
+      <p><a href="https://github.com/abhishek1110111/time-series-forecasting-crew-scheduling" target="_blank" rel="noopener">Code</a> · <a href="asset/crew_scheduling_poster.pdf" target="_blank" rel="noopener">Poster</a></p>
+    </article>
+
+    <article class="card">
+      <h3>E-commerce Sales Dashboard (Power BI)</h3>
+      <p>Interactive BI app tracking revenue, profit, quantity and AOV with quarter slicers. Breakdowns by state, category, payment mode, and sub-category plus monthly profit trend and top customers. Used to flag stock risk and margin drivers—helped cut stockouts ≈20% and reduce overstock ≈10%.</p>
+      <p class="tags">Power BI · DAX · Data Modeling · SQL/Excel</p>
+      <p>
+        <a href="https://github.com/abhishek1110111/Ecommerce-sales-Dashboard-Power-BI" target="_blank" rel="noopener">Code</a> ·
+        <a href="assets/ecommerce_dashboard.png" target="_blank" rel="noopener">Screenshot</a>
+      </p>
+    </article>
+
+    <article class="card">
+        <h3>Indian Eatery Chatbot — Order &amp; Support</h3>
+        <p>Dialogflow (ES/CX) + FastAPI backend with MySQL; answers menu FAQs, tracks orders, and escalates to staff when needed. Designed intents, entities, and handoff logic; deployable via Docker/ngrok.</p>
+        <p class="tags">Python . Dialogflow · NLP · FastAPI · MySQL · Docker</p>
+        <p><a href="https://github.com/abhishek1110111/Chatbot_for_restaurant" target="_blank" rel="noopener">Code</a> · <a href="https://www.youtube.com/watch?v=H_Wh84hy5U8" target="_blank" rel="noopener">Demo</a></p>
     </article>
 
     </div>
+    <section id="experience" class="container">
+    <h2>Experience</h2>
+    <div class="grid">
+
+      <article class="card">
+        <h3>Data Analyst — Euroclick Ltd</h3>
+        <p class="small">Cardiff, UK · Mar 2024 – Present</p>
+        <ul>
+          <li>Redesigned sales dashboards → ~15% sales uplift by highlighting high-margin products.</li>
+          <li>Trend analysis + stock alerts → stockouts reduced ~20%, overstock down ~10%.</li>
+          <li>Partnered with sales/marketing to turn insights into promos and inventory actions.</li>
+        </ul>
+        <p class="tags">Power BI · Python · SQL · Excel</p>
+      </article>
+
+      <article class="card">
+        <h3>Software Engineer — Kissht/PaywithRing (Fintech)</h3>
+        <p class="small">4 yrs across fintech & e-commerce</p>
+        <ul>
+          <li>Designed/distributed microservices for payments & disbursements → ~20% faster transaction flows.</li>
+          <li>Integrated bank/PSP APIs (Yes Bank, RazorpayX, Cashfree) with real-time notifications.</li>
+          <li>Built robust MySQL data services handling high-volume financial records.</li>
+        </ul>
+        <p class="tags">Golang · PHP (Laravel) · MySQL · Microservices · APIs</p>
+      </article>
+
+      <article class="card">
+        <h3>Software Developer — Cedcommerce/Cedcoss Technologies</h3>
+        <ul>
+          <li>Maintained & Developed 20+ marketplace integrations (eBay, Amazon, OnBuy, Walmart) for listings & orders.</li>
+          <li>Analyzed customer/order data to surface trends and reduce refund-related queries.</li>
+        </ul>
+        <p class="tags">PHP · MySQL · PrestaShop · OpenCart</p>
+      </article>
+
+    </div>
+  </section>
+
   </section>
 
   <section id="skills" class="container">
@@ -77,13 +128,13 @@
       <article class="skill-card">
         <h3>Programming Languages</h3>
         <ul class="chips">
-          <li>Python</li><li>SQL</li><li>R (basic)</li>
+          <li>Python</li><li>Pandas</li><li>NumPy</li><li>SQL</li><li>R (basic)</li>
         </ul>
       </article>
       <article class="skill-card">
         <h3>Data Science &amp; ML</h3>
         <ul class="chips">
-          <li>Pandas</li><li>NumPy</li><li>Regex</li><li>scikit-learn</li><li>TensorFlow</li><li>NLP</li><li>LLM</li><li>HuggingFace</li><li>statistical Modelling</li><li>A/B Testing</li>
+          <li>Regex</li><li>scikit-learn</li><li>TensorFlow</li><li>PyTorch</li><li>NLP</li><li>LLM</li><li>HuggingFace</li><li>statistical Modelling</li><li>A/B Testing</li>
         </ul>
       </article>
       <article class="skill-card">
@@ -93,21 +144,9 @@
         </ul>
       </article>
       <article class="skill-card">
-        <h3>Databases</h3>
-        <ul class="chips">
-          <li>MySQL</li>
-        </ul>
-      </article>
-      <article class="skill-card">
-        <h3>Tools &amp; Platforms</h3>
+        <h3>Other Skills</h3>
         <ul class="chips">
           <li>Docker</li><li>MLflow</li><li>AWS</li><li>Git &amp; GitHub</li><li>Excel</li>
-        </ul>
-      </article>
-      <article class="skill-card">
-        <h3>Tools &amp; Project Management</h3>
-        <ul class="chips">
-          <li>Jira</li><li>Notion</li><li>Asana</li><li>Clickup</li>
         </ul>
       </article>
     </div>
@@ -115,12 +154,12 @@
 
   <section id="about" class="container">
     <h2>About</h2>
-    <p>MSc Data Science & Analytics (Cardiff, Distinction). 1.5+ year in analytics & 4 years in software engineering (fintech & e-commerce). I enjoy shipping reliable data systems and explaining results in plain English.</p>
+    <p>Data scientist & software engineer with 1.5+ years in analytics and 4 years in Software engineering (fintech/e-commerce). MSc Data Science & Analytics (Cardiff University, Distinction); B.Tech Computer Science & Engineering (First Class). I turn messy data into decisions—clearly explained.</p>
   </section>
 
   <section id="contact" class="container">
     <h2>Contact</h2>
-    <p>Let's talk! Email <a href="mailto:abhishek.kumar11101@gmail.com">me@example.com</a> or message on <a href="https://www.linkedin.com/abhi-km/">LinkedIn</a>.</p>
+    <p>Let's talk! Email <a href="mailto:abhishek.kumar11101@gmail.com">abhishek.kumar11101@gmail.com</a> or message on <a href="https://www.linkedin.com/abhi-km/">LinkedIn</a>.</p>
   </section>
 
   <footer class="site-footer">
