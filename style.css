@@ -52,3 +52,13 @@ h2{font-size:1.6rem;margin:2rem 0 1rem}
 }
 
 /* === End Profile photo in Hero === */
+
+/* Certifications layout (single-card) */
+.card.cert h3{font-size:1rem;margin:.1rem 0 .25rem}
+.card.cert .small{color:var(--muted);margin:0 0 .35rem}
+
+/* Blog cards: buttons row + external-link arrow */
+.actions{margin-top:.5rem;display:flex;gap:.5rem;flex-wrap:wrap}
+a.ext::after{content:"↗";margin-left:.25rem}
+.nav-links a.active{color:var(--text);font-weight:600}
+

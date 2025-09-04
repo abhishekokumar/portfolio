@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog — Abhishek</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="logo" href="../">Abhishek</a>
+      <ul class="nav-links">
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../index.html#skills">Skills</a></li>
+        <li><a href="index.html" class="active">Blog</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Blog</h1>
+    <div class="grid">
+
+      <!-- EXTERNAL ARTICLE -->
+      <!-- <article class="card">
+        <h3><a class="ext" href="https://example.com/your-article" target="_blank" rel="noopener">How I Built a River-Flow Forecaster</a></h3>
+        <p class="small">External link · 5 min read</p>
+        <p>Feature ideas, leakage traps, and evaluation choices that actually matter.</p>
+        <div class="actions">
+          <a class="btn" href="https://example.com/your-article" target="_blank" rel="noopener">Read on Medium</a>
+          <a class="btn outline" href="../assets/blog/dashboard_evaluation.pdf" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </article> -->
+
+      <!-- PDF-ONLY POST -->
+      <article class="card">
+        <h3>From Good to Great: Elevating Your Data Visualization Game</h3>
+        <p class="small">Feb–Mar 2024 · Cardiff University · PDF</p>
+        <p>From clutter to clarity: a Tufte-guided teardown that turns a finance dashboard into decision-ready visuals.</p>
+        <div class="actions">
+          <a class="btn" href="#" data-pdf="#viz1">Open PDF</a>
+          <a class="btn outline" href="../assets/blog/dashboard_evaluation.pdf" download>Download</a>
+        </div>
+        <div id="viz1" class="pdf-embed" hidden>
+          <object data="../assets/blog/dashboard_evaluation.pdf" type="application/pdf" width="100%" height="800">
+            <p>PDF preview not supported.
+              <a class="btn" href="../assets/blog/dashboard_evaluation.pdf" target="_blank" rel="noopener">Open in new tab</a>
+            </p>
+          </object>
+        </div>
+
+      </article>
+
+      <!-- DASHBOARD WRITE-UP (EXTERNAL) -->
+      <!-- <article class="card">
+        <h3><a class="ext" href="https://example.com/powerbi-notes" target="_blank" rel="noopener">Power BI: Avoiding Slow Dashboards</a></h3>
+        <p class="small">External link · Power BI · DAX</p>
+        <p>Star schema, query folding, and aggregations that cut refresh time and boost UX.</p>
+        <div class="actions">
+          <a class="btn" href="https://example.com/powerbi-notes" target="_blank" rel="noopener">Read article</a>
+        </div>
+      </article> -->
+
+      <!-- ADD MORE CARDS AS YOU GO -->
+      <!--
+      <article class="card">
+        <h3><a class="ext" href="https://..." target="_blank" rel="noopener">Title</a></h3>
+        <p class="small">External link · Tag</p>
+        <p>Short 1–2 line summary.</p>
+        <div class="actions">
+          <a class="btn" href="https://..." target="_blank" rel="noopener">Read article</a>
+          <a class="btn outline" href="../assets/blog/foo.pdf" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </article>
+      -->
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container small">© <span id="year"></span> Abhishek</div>
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+  <script>
+  document.querySelectorAll('[data-pdf]').forEach(btn=>{
+    btn.addEventListener('click', e=>{
+      e.preventDefault();
+      const sel = btn.getAttribute('data-pdf');
+      const panel = document.querySelector(sel);
+      const isHidden = panel.hasAttribute('hidden');
+      if(isHidden) panel.removeAttribute('hidden'); else panel.setAttribute('hidden','');
+      btn.textContent = isHidden ? 'Hide PDF' : 'Open PDF';
+    });
+  });
+  </script>
+
+</body>
+</html>
