@@ -3,7 +3,7 @@
 🚀 Personal portfolio website built with **HTML + CSS** and hosted on **GitHub Pages**.  
 It showcases my projects, experience, and skills in **Data Science** and **Software Engineering**.
 
-🔗 **Live site:** [abhishek1110111.github.io/portfolio](https://abhishek1110111.github.io/portfolio/)
+🔗 **Live site:** [abhishek1110111.github.io/portfolio](https://github.com/abhishekokumar/portfolio)
 
 ---
 
