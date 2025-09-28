@@ -26,7 +26,7 @@ It showcases my projects, experience, and skills in **Data Science** and **Softw
 
 ## 📬 Contact
 
-- Portfolio → [abhishekokumar.github.io/portfolio](https://abhishek1110111.github.io/portfolio/)  
+- Portfolio → [abhishekokumar.github.io/portfolio](https://abhishekokumar.github.io/portfolio/)  
 - LinkedIn → [linkedin.com/in/abhi-km](https://www.linkedin.com/in/abhi-km/)  
 - GitHub → [github.com/abhishekokumar](https://github.com/abhishekokumar)  
 - Email → abhishek.kumar11101@gmail.com  
