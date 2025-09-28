@@ -3,14 +3,14 @@
 🚀 Personal portfolio website built with **HTML + CSS** and hosted on **GitHub Pages**.  
 It showcases my projects, experience, and skills in **Data Science** and **Software Engineering**.
 
-🔗 **Live site:** [abhishek1110111.github.io/portfolio](https://github.com/abhishekokumar/portfolio)
+🔗 **Live site:** [abhishekokumar.github.io/portfolio](https://github.com/abhishekokumar/portfolio)
 
 ---
 
 ## 📌 What’s inside
 
 - **Projects** → Machine learning, forecasting, NLP, dashboards, and chatbot builds  
-- **Experience** → 4+ years in fintech & e-commerce + 1.5 years in analytics  
+- **Experience** → 4+ years in fintech & e-commerce in software Engineering + 1.5 years in analytics  
 - **Skills** → Python, SQL, ML, NLP, Power BI, Docker, AWS, and more  
 - **About & Contact** → Academic background (MSc Data Science, Cardiff) and ways to reach me  
 
@@ -26,9 +26,9 @@ It showcases my projects, experience, and skills in **Data Science** and **Softw
 
 ## 📬 Contact
 
-- Portfolio → [abhishek1110111.github.io/portfolio](https://abhishek1110111.github.io/portfolio/)  
+- Portfolio → [abhishekokumar.github.io/portfolio](https://abhishek1110111.github.io/portfolio/)  
 - LinkedIn → [linkedin.com/in/abhi-km](https://www.linkedin.com/in/abhi-km/)  
-- GitHub → [github.com/abhishek1110111](https://github.com/abhishek1110111)  
+- GitHub → [github.com/abhishekokumar](https://github.com/abhishekokumar)  
 - Email → abhishek.kumar11101@gmail.com  
 
 ---
